@@ -17,6 +17,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.prettierlog
+stylelint.log
 
 # =====================
 # OS Generated Files
@@ -51,6 +53,8 @@ coverage/
 *.swp
 *.tmp
 *.cache
+*.orig
+*.patch
 
 # =====================
 # React/Vite Specific
@@ -73,3 +77,9 @@ stylelintcache
 .env.production.local
 firebase-service-account.json
 config.js
+
+# =====================
+# Dev Tool Metadata
+# =====================
+.prettierrc
+.eslintrc.*
